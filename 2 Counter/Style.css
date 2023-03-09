@@ -1,0 +1,20 @@
+.container{
+    height: 100vh;
+    top: 20vh;
+    position: absolute;
+    left: 40vw;
+}
+#value{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+.sdiv{
+    text-align: center;
+    font-size: 40px;
+}
+.btn{
+    margin: 3px;
+    padding: 10px;
+    font-size: 20px;
+}
