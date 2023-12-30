@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.menu{
+    width: 85%;
+    margin: auto;
+}
+.title{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px ;
+}
+.btn-container{
+    text-align: center;
+    padding: 10px;
+}
+.btn{
+    font-size: 15px;
+    padding: 3px 7px;
+    margin: 3px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(60, 160, 242);
+    border-radius: 5%;
+    margin-right: 10px;
+}
+.section-center{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+}
+.menu-item{
+    display: flex;
+    margin: 15px;
+    min-width: 400px;
+    max-width: 500px;
+}
