@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    /* background-color: aqua; */
+    width: 60%;
+    margin: auto;
+    /* text-align: center; */
+    height: 100vh;
+}
+
+.header p {
+    font-size: 2.2rem;
+}
+
+.header button{
+    font-size: 1rem;
+    padding: 0.70rem;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 900;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center; 
+    padding: 0.50rem 3rem;
+}
+
+.all-data{
+    /* background-color: bisque; */
+    height: auto;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 1px red solid; */
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.date{
+    font-size: 1.4rem;
+}
+
+.data-header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.description{
+    padding-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.dark-theme {
+    background-color: rgb(29, 25, 25);
+    color: rgb(68, 141, 206);
+    transition: 0.3;
+  }
